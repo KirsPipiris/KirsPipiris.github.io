@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Junior QA · Визитка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Главная карточка -->
+    <div class="card profile-card">
+      <div class="avatar-wrapper">
+        <!-- Замените src на путь к своему фото -->
+        <img src="./me.png.jpg" alt="avatar" class="avatar" />
+      </div>
+      <h1 class="name">Екатерина Кирсанова</h1>
+      <p class="title">Junior QA-тестировщик</p>
+      <p class="bio">
+        Ответственно подхожу к работе.
+        Готова к ручному и автоматизированному тестированию.
+      </p>
+      <div class="cta">
+        <a href="https://hh.ru/applicant/profile/me?hhtmFrom=main" class="btn btn-primary" target="_blank">📄 Резюме на hh.ru</a>
+      </div>
+    </div>
+
+    <!-- Обо мне -->
+    <div class="card about-card">
+      <h2>Обо мне</h2>
+      <p>
+        Имею опыт написания тест-кейсов, баг-репортов, работаю с <strong>Jira</strong>, <strong>TestRail</strong>.
+        Знаю основы SQL, REST API (Postman), HTML/CSS. Постоянно учусь новому, прохожу курсы по автоматизации.
+      </p>
+    </div>
+
+    <!-- Навыки -->
+    <div class="card skills-card">
+      <h2>Ключевые навыки</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Тест-дизайн</span>
+        <span class="skill-tag">Bug-репорты</span>
+        <span class="skill-tag">Jira</span>
+        <span class="skill-tag">TestRail</span>
+        <span class="skill-tag">Postman</span>
+        <span class="skill-tag">SQL (базовый)</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">HTML/CSS</span>
+      </div>
+    </div>
+
+     <!-- Контакты (без LinkedIn и GitHub) -->
+    <div class="card contacts-card">
+      <h2>Контакты</h2>
+      <div class="contact-links">
+        <a href="mailto:k1rs.pirs@yandex.ru" class="contact-item">✉️ k1rs.pirs@yandex.ru</a>
+        <a href="tel:+79295620992" class="contact-item">📞 +7 (929) 562 09 92</a>
+        <a href="https://hh.ru/applicant/profile/me?hhtmFrom=main" class="contact-item" target="_blank">🔗 hh.ru</a>
+      </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <p>© 2026 · Junior QA</p>
+    </footer>
+  </div>
+</body>
+</html>
